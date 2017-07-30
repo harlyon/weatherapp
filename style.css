@@ -1,0 +1,85 @@
+html { 
+  background: url(weather.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bellefair', serif;
+  color: #000;
+  letter-spacing: 2px;
+}
+
+p {
+  text-align: center;
+  font-size: 1em;
+}
+
+p.color {
+  color: grey;
+}
+
+div.container {
+  background:rgba(255,255,255,.9);
+  position: absolute;
+  width: 40%;
+  left: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 15px;
+  border-radius: 20px;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  color: #663300;
+  margin: 0px;
+}
+/********** Footer **********/
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 20px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 4px 0 0 0;
+  /* Set the fixed height of the footer here */
+  height: 20px;
+  background-color: rgb(69,20,13);
+  color: rgb(234,202,88);
+  text-align: center;
+  font-size: .7em;
+}
+.footer a {
+  text-decoration: none;
+  color: rgb(234,202,88);
+}
+.footer a:hover {
+  color: white;
+}
+
+/********** Small devices **********/
+@media (max-width: 767px) {
+
+  div.container {
+    width: 80%;
+    left: 10%;
+  }
+}
